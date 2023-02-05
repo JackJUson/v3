@@ -24,7 +24,7 @@ function Navbar() {
   return (
     <div
       className={`fixed w-full h-[70px] flex justify-center items-center duration-300
-      bg-[#0a192f] text-gray-300 px-8 z-50 bg-opacity-80 bg-clip-padding blur-backdrop-filter
+      bg-[#0a192f] text-[#ccd6f6] px-8 z-50 bg-opacity-80 bg-clip-padding blur-backdrop-filter
       ${scrollDir === "down" ? "translate-y-[-100%]" : ""}
       ${scrollY === 0 ? "py-11" : "shadow-2xl"}`}
     >
@@ -59,7 +59,7 @@ function Navbar() {
             data-aos-duration="500"
           >
             <a
-              className="border-2 border-[#ccd6f6] text-[#ccd6f6] px-2 py-1 mx-3 flex items-center rounded
+              className="border-2 border-[#ccd6f6] text-[#ccd6f6] px-3 py-1 mx-2 flex items-center rounded
           hover:bg-[#64ffda] hover:bg-opacity-40 hover:text-white hover:border-[#64ffda] duration-300"
               href={Resume}
               target="_blank"
