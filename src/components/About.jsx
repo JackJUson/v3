@@ -44,8 +44,8 @@ function About() {
           </span>
           <br />
           <br />
-          Here are a few technologies I’ve been working with recently:
-          <ul className="relative h-full w-[70%] text-[#a8b2d1] grid grid-cols-2 gap-4 text-sm mt-2">
+          Here are a few technologies I’ve been working with recently!
+          <ul className="relative h-full w-[70%] text-[#a8b2d1] grid grid-cols-2 gap-4 text-sm mt-4">
             <li className="before-arrow pl-7">JavaScript</li>
             <li className="before-arrow pl-7">TypeScript</li>
             <li className="before-arrow pl-7">React</li>
