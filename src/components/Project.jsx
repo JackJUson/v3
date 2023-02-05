@@ -30,6 +30,7 @@ function Project({ project }) {
       <div className="flex flex-col text-left m-6 min-h-[150px]">
         <a
           href={project.live}
+          target="_blank"
           className="group-hover:text-[#64ffda] font-bold text-[#ccd6f6] text-xl"
         >
           {project.title}
