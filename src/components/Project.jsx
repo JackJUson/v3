@@ -5,7 +5,7 @@ import { FiExternalLink, FiGithub } from "react-icons/fi";
 function Project({ project }) {
   return (
     <div
-      className="shadow-sm shadow-[#040c16] hover:-translate-y-1.5 duration-300 ease-in-out
+      className="shadow-sm shadow-[#040c16] hover:-translate-y-1.5 duration-300
       group text-[#a8b2d1] bg-[#112240] rounded-sm py-3 px-1"
     >
       <div className="flex justify-between items-center m-6">
