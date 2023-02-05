@@ -1,6 +1,6 @@
 import React from "react";
 import { FiGithub, FiExternalLink } from "react-icons/fi";
-import { projects } from "../data/projects";
+import { featuredProjects as projects } from "../data/featured";
 
 function Work() {
   return (
