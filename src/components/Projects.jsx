@@ -7,13 +7,17 @@ function Projects() {
   const [numOfResults, setNumOfResults] = useState(initialNumberOfItems);
 
   function showMore() {
-    setNumOfResults(numOfResults + 3);
+    setNumOfResults(projects.length);
+  }
+  
+  function showLess() {
+    setNumOfResults(initialNumberOfItems);
   }
 
   return (
     <div name="projects" className="w-full h-full bg-[#0a192f] text-center">
-      <div className="min-h-[1200px] max-w-[80%] w-[1000px] mx-auto text-center flex flex-col justify-center items-center">
-        <p className="text-3xl font-bold text-[#ccd6f6] mb-4">
+      <div className="max-w-[80%] w-[1000px] mx-auto text-center flex flex-col justify-center items-center">
+        <p className="text-3xl font-bold text-[#ccd6f6] mb-4 mt-[7rem]">
           Other Noteworthy Projects
         </p>
         <a href="#" className="text-[#64ffda]">
@@ -24,13 +28,24 @@ function Projects() {
             <Project project={project} key={index} />
           ))}
         </div>
-        <button
-          className="border-[#ccd6f6] text-[#ccd6f6] group border-2 px-6 py-3 my-11 flex items-center rounded
-          hover:bg-[#64ffda] hover:bg-opacity-40 hover:border-[#64ffda] hover:text-white duration-300"
-          onClick={() => showMore()}
-        >
-          Show More
-        </button>
+
+        {numOfResults < projects.length ? (
+          <button
+            className="border-[#ccd6f6] text-[#ccd6f6] group border-2 px-6 py-3 my-11 flex items-center rounded
+        hover:bg-[#64ffda] hover:bg-opacity-40 hover:border-[#64ffda] hover:text-white duration-300 mb-[7rem]"
+            onClick={() => showMore()}
+          >
+            Show More
+          </button>
+        ) : (
+          <button
+            className="border-[#ccd6f6] text-[#ccd6f6] group border-2 px-6 py-3 my-11 flex items-center rounded
+          hover:bg-[#64ffda] hover:bg-opacity-40 hover:border-[#64ffda] hover:text-white duration-300 mb-[7rem]"
+            onClick={() => showLess()}
+          >
+            Show Less
+          </button>
+        )}
       </div>
     </div>
   );
