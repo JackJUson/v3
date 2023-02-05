@@ -9,7 +9,7 @@ function Skills() {
       mx-auto flex justify-center items-center"
       >
         <div className="w-[100%] md:w-[70%]">
-          <p className="text-3xl font-bold inline border-b-4 border-[#64ffda] text-gray-300">
+          <p className="text-3xl font-bold inline border-b-4 border-[#64ffda] text-[#ccd6f6]">
             Where I’ve Worked
           </p>
           <div className="flex mt-11 text-[#64ffda]">
@@ -17,7 +17,7 @@ function Skills() {
               <li className="p-2">Frontend Simplified</li>
             </ul>
             <div className="flex flex-col ml-4">
-              <div className="text-gray-300 mb-4">
+              <div className="text-[#ccd6f6] mb-4">
                 <h4 className="font-bold text-lg">
                   Frontend Developer{" "}
                   <a href="https://frontendsimplified.com/" className="text-[#64ffda]">
