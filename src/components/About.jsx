@@ -18,8 +18,8 @@ function About() {
       >
         <p className="lg:w-1/2 m-11 mt-[4rem] lg:m-0">
           <span
-            className="text-4xl text-gray-300 block font-bold border-b-4 
-            border-[#64ffda] w-[169px] mb-5"
+            className="text-3xl text-gray-300 block font-bold border-b-4 
+            border-[#64ffda] w-[140px] mb-5"
           >
             About Me
           </span>
@@ -43,6 +43,16 @@ function About() {
             frontend simplified internship!
           </span>
           <br />
+          <br />
+          Here are a few technologies I’ve been working with recently:
+          <ul className="relative h-full w-[70%] text-[#a8b2d1] grid grid-cols-2 gap-4 text-sm mt-2">
+            <li className="before-arrow pl-7">JavaScript</li>
+            <li className="before-arrow pl-7">TypeScript</li>
+            <li className="before-arrow pl-7">React</li>
+            <li className="before-arrow pl-7">Node.js</li>
+            <li className="before-arrow pl-7">Next.js</li>
+            <li className="before-arrow pl-7">Tailwind</li>
+          </ul>
         </p>
         <div className="relative group hidden sm:block group mb-[4rem] lg:mb-0">
           <img
