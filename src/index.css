@@ -31,6 +31,12 @@
   background-position: 0 100%;
 }
 
+.before-arrow:before {
+  content: "▹";
+  position: absolute;
+  margin-left: -24px;
+  color: #64ffda;
+}
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .background {
