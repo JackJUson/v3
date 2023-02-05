@@ -36,9 +36,7 @@ function Navbar() {
             style={{ width: "60px" }}
             className="cursor-pointer"
             data-aos="fade-in"
-            data-aos-easing="ease-out"
             data-aos-delay="0"
-            data-aos-duration="800"
           />
         </Link>
         {/* Main menu */}
@@ -54,9 +52,7 @@ function Navbar() {
           />
           <li
             data-aos="fade-down"
-            data-aos-easing="ease-out"
             data-aos-delay="400"
-            data-aos-duration="500"
           >
             <a
               className="border-2 border-[#ccd6f6] text-[#ccd6f6] px-3 py-1 mx-2 flex items-center rounded
@@ -75,9 +71,7 @@ function Navbar() {
         onClick={handleClick}
         className="md:hidden z-10 cursor-pointer text-2xl"
         data-aos="fade-in"
-        data-aos-easing="ease-out"
         data-aos-delay="0"
-        data-aos-duration="500"
       >
         {!nav ? <FaBars /> : <FaTimes />}
       </div>

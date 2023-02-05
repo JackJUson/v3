@@ -1,13 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-scroll";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
-
 function Home() {
-  useEffect(() => {
-    AOS.init({ duration: 600, easing: "ease-out", once: true });
-  }, []);
   return (
     <div name="home" className="w-full h-screen bg-[#0a192f]">
       {/* Container */}

@@ -11,9 +11,7 @@ function Social() {
       <div
         className="fixed bottom-0 left-[50px] flex-col h-[340px]"
         data-aos="fade-in"
-        data-aos-easing="ease-out"
-        data-aos-delay="2200"
-        data-aos-duration="500"
+        data-aos-delay="2400"
       >
         <div className="h-full flex flex-col justify-center items-center">
           <ul className="h-full flex flex-col justify-between mb-10">
@@ -73,9 +71,7 @@ function Social() {
       <div
         className="fixed bottom-[128px] right-[-140px] tracking-[0.2em] w-[400px]"
         data-aos="fade-in"
-        data-aos-easing="ease-out"
-        data-aos-delay="2200"
-        data-aos-duration="500"
+        data-aos-delay="2400"
       >
         <div className="flex items-center rotate-90">
           <a

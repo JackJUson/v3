@@ -5,8 +5,9 @@ function Skills() {
     <div name="skills" className="w-full h-full bg-[#0a192f]">
       {/* Container */}
       <div
-        className="min-h-[600px] max-w-[80%] w-[1000px] 
-      mx-auto flex justify-center items-center"
+        className="min-h-[600px] max-w-[80%] w-[1000px] mx-auto flex justify-center items-center"
+        data-aos="fade-up"
+        data-aos-delay="500"
       >
         <div className="w-[100%] md:w-[70%]">
           <p className="text-3xl font-bold inline border-b-4 border-[#64ffda] text-[#ccd6f6]">
@@ -20,7 +21,10 @@ function Skills() {
               <div className="text-[#ccd6f6] mb-4">
                 <h4 className="font-bold text-lg">
                   Frontend Developer{" "}
-                  <a href="https://frontendsimplified.com/" className="text-[#64ffda]">
+                  <a
+                    href="https://frontendsimplified.com/"
+                    className="text-[#64ffda]"
+                  >
                     &nbsp;@ Frontend Simplified
                   </a>
                 </h4>

@@ -8,11 +8,8 @@ function Contact() {
     >
       <div
         className="h-full max-w-[80%] w-[1000px] mx-auto flex flex-col justify-center items-center"
-        data-aos="fade-in"
-        data-aos-easing="ease-out"
-        data-aos-delay="400"
-        data-aos-duration="700"
-        data-aos-once="true"
+        data-aos="fade-up"
+        data-aos-delay="500"
       >
         <h3 className="text-[#64ffda] tracking-wider font-bold">
           What's Next?

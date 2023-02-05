@@ -9,14 +9,18 @@ function Projects() {
   function showMore() {
     setNumOfResults(projects.length);
   }
-  
+
   function showLess() {
     setNumOfResults(initialNumberOfItems);
   }
 
   return (
     <div name="projects" className="w-full h-full bg-[#0a192f] text-center">
-      <div className="max-w-[80%] w-[1000px] mx-auto text-center flex flex-col justify-center items-center">
+      <div
+        className="max-w-[80%] w-[1000px] mx-auto text-center flex flex-col justify-center items-center"
+        data-aos="fade-up"
+        data-aos-delay="400"
+      >
         <p className="text-3xl font-bold text-[#ccd6f6] mb-4 mt-[7rem]">
           Other Noteworthy Projects
         </p>

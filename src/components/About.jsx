@@ -11,10 +11,7 @@ function About() {
         className="lg:h-[50vh] min-h-[500px] max-w-[80%] w-[1000px] mx-auto flex 
         justify-evenly text-[#8892b0] flex-col lg:flex-row items-center"
         data-aos="fade-up"
-        data-aos-easing="ease-out"
         data-aos-delay="400"
-        data-aos-duration="600"
-        data-aos-once="true"
       >
         <p className="lg:w-1/2 m-11 mt-[4rem] lg:m-0">
           <span

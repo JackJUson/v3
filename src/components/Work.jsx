@@ -10,10 +10,7 @@ function Work() {
           <h1
             className="text-3xl font-bold inline border-b-4 border-[#64ffda]"
             data-aos="fade-up"
-            data-aos-easing="ease-out"
             data-aos-delay="100"
-            data-aos-duration="500"
-            data-aos-once="true"
           >
             Some Apps I’ve Built
           </h1>
@@ -24,10 +21,7 @@ function Work() {
             <div
               className="flex max-h-[50%] mb-[4rem] background"
               data-aos="fade-up"
-              data-aos-easing="ease-out"
               data-aos-delay="300"
-              data-aos-duration="500"
-              data-aos-once="true"
               key={index}
             >
               <div className="hidden md:flex items-center hover:scale-105 duration-300">
@@ -84,10 +78,7 @@ function Work() {
             <div
               className="flex max-h-[50%] mb-[4rem] background"
               data-aos="fade-up"
-              data-aos-easing="ease-out"
               data-aos-delay="300"
-              data-aos-duration="500"
-              data-aos-once="true"
               key={index}
             >
               <div className="text-left items-start flex flex-col justify-evenly min-h-[350px]">
