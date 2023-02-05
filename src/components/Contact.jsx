@@ -17,7 +17,7 @@ function Contact() {
         <h3 className="text-[#64ffda] tracking-wider font-bold">
           What's Next?
         </h3>
-        <h1 className="text-5xl md:text-6xl text-gray-300 block font-bold my-6">
+        <h1 className="text-5xl md:text-6xl text-[#ccd6f6] block font-bold my-6">
           Get In Touch
         </h1>
         <p className="max-w-[600px] mx-8">
