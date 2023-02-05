@@ -55,11 +55,6 @@ function Home() {
             <button
               className="text-[#ccd6f6] border-[#ccd6f6] group border-2 px-6 py-3 my-2 flex items-center 
               rounded hover:bg-[#64ffda] hover:text-white hover:bg-opacity-40 hover:border-[#64ffda] duration-300"
-              data-aos="fade-up"
-              data-aos-easing="ease-out"
-              data-aos-delay="1700"
-              data-aos-duration="400"
-              data-aos-once="true"
             >
               View Portfolio
             </button>
