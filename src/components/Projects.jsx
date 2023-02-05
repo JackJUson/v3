@@ -5,7 +5,7 @@ function Projects() {
   return (
     <div name="projects" className="w-full h-full bg-[#0a192f] text-center">
       <div className="min-h-[900px] max-w-[80%] w-[1000px] mx-auto text-center flex flex-col justify-center items-center">
-        <p className="text-3xl font-bold text-gray-300 mb-4">
+        <p className="text-3xl font-bold text-[#ccd6f6] mb-4">
           Other Noteworthy Projects
         </p>
         <a href="#" className="text-[#64ffda]">
