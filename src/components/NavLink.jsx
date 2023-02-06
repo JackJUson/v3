@@ -5,7 +5,7 @@ function NavLink({ screen, link, name, handleClick, delay }) {
   return screen ? (
     <li
       className="mx-4 hover:text-[#64ffda] duration-300 cursor-pointer"
-      data-aos="fade-down"
+      data-aos="fade-in"
       data-aos-delay={delay}
     >
       <Link to={link} smooth={true} duration={1000}>

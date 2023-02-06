@@ -51,7 +51,7 @@ function Navbar() {
             delay={"300"}
           />
           <li
-            data-aos="fade-down"
+            data-aos="fade-in"
             data-aos-delay="400"
           >
             <a
