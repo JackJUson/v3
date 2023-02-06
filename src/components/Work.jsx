@@ -10,7 +10,7 @@ function Work() {
           <h1
             className="text-3xl font-bold inline border-b-4 border-[#64ffda]"
             data-aos="fade-up"
-            data-aos-delay="100"
+            data-aos-delay="300"
           >
             Some Apps I’ve Built
           </h1>
