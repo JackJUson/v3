@@ -2,11 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 @layer base {
   body {
-    @apply font-[Raleway] scrollbar-thumb-[#233554] 
+    @apply font-[Montserrat] scrollbar-thumb-[#233554] 
     scrollbar-track-transparent scrollbar-thin scrollbar-thumb-rounded-full;
   }
 }
