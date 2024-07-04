@@ -18,14 +18,14 @@ function Home() {
           data-aos="fade-up"
           data-aos-delay="1200"
         >
-          Jackson Jung.
+          Jackson Jung
         </h1>
         <h2
           className="text-4xl md:text-5xl lg:text-7xl font-bold text-[#8892b0] mb-4"
           data-aos="fade-up"
           data-aos-delay="1400"
         >
-          I'm a Frontend Developer.
+          I'm a Software Engineer 
         </h2>
         <p
           className="text-[#8892b0] py-4 max-w-[500px] mb-4"
@@ -35,8 +35,7 @@ function Home() {
           I have a strong passion for software engineering with experience
           building responsive multiplatform web applications. Currently, I'm
           focused on making interactive websites with{" "}
-          <span className="text-[#64ffda] text-underline">React</span> and{" "}
-          <span className="text-[#64ffda] text-underline">NextJs</span>.
+          <span className="text-[#64ffda] text-underline">Next.js</span>.
         </p>
         <div>
           <Link to="about" smooth={true} duration={600}>
