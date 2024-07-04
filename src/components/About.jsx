@@ -16,7 +16,7 @@ function About() {
         <p className="lg:w-1/2 m-11 mt-[4rem] lg:m-0">
           <span
             className="text-3xl text-[#ccd6f6] block font-bold border-b-4 
-            border-[#64ffda] w-[140px] mb-5"
+            border-[#64ffda] w-[155px] mb-5"
           >
             About Me
           </span>
