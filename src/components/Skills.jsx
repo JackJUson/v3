@@ -10,7 +10,7 @@ function Skills() {
         data-aos-delay='500'
       >
         <div className='w-[100%] md:w-[70%]'>
-          <p className='text-3xl font-bold inline border-b-4 border-[#64ffda] text-[#ccd6f6]'>
+          <p className='text-3xl font-bold inline border-b-2 border-[#64ffda] text-[#ccd6f6]'>
             Where I’ve Worked
           </p>
           <div className='flex mt-11 text-[#64ffda]'>
