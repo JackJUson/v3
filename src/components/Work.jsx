@@ -8,7 +8,7 @@ function Work() {
       <div className="max-w-[80%] w-[1000px] mx-auto p-11 flex flex-col justify-center">
         <div className="my-11">
           <h1
-            className="text-3xl font-bold inline border-b-4 border-[#64ffda]"
+            className="text-3xl font-bold inline border-b-2 border-[#64ffda]"
             data-aos="fade-up"
             data-aos-delay="300"
           >
