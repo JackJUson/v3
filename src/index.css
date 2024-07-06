@@ -12,6 +12,17 @@
   }
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+* {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
 .blur-backdrop-filter {
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
@@ -19,8 +30,7 @@
 
 .text-underline {
   border-bottom-width: 0;
-  background-image: linear-gradient(transparent, transparent),
-    linear-gradient(#64ffda, #64ffda);
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#64ffda, #64ffda);
   background-size: 0 1px;
   background-position: 0 100%;
   background-repeat: no-repeat;
@@ -33,7 +43,7 @@
 }
 
 .before-arrow:before {
-  content: "▹";
+  content: '▹';
   position: absolute;
   margin-left: -24px;
   color: #64ffda;
