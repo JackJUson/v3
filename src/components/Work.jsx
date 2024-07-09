@@ -24,7 +24,7 @@ function Work() {
               data-aos-delay="300"
               key={index}
             >
-              <div className="hidden md:flex items-center hover:scale-105 duration-300">
+              <div className="hidden md:flex items-center hover:scale-105 duration-200">
                 <a href={project.github} target="_blank">
                   <img
                     src={project.image}
@@ -121,7 +121,7 @@ function Work() {
                   </a>
                 </div>
               </div>
-              <div className="hidden md:flex items-center hover:scale-105 duration-300 max-w-[500px]">
+              <div className="hidden md:flex items-center hover:scale-105 duration-200 max-w-[500px]">
                 <a href={project.github} target="_blank">
                   <img
                     src={project.image}
