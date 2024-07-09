@@ -1,12 +1,14 @@
-import React from "react";
-import { CiFolderOn } from "react-icons/ci";
-import { FiExternalLink, FiGithub } from "react-icons/fi";
+import React from 'react';
+import { CiFolderOn } from 'react-icons/ci';
+import { FiExternalLink, FiGithub } from 'react-icons/fi';
 
-function Project({ project }) {
+function Project({ project, delay }) {
   return (
     <div
-      className="shadow-sm shadow-[#040c16] hover:-translate-y-1.5 duration-300
-      group text-[#a8b2d1] bg-[#112240] rounded-sm py-3 px-1"
+      className='shadow-sm shadow-[#040c16] hover:-translate-y-1.5 duration-300
+      group text-[#a8b2d1] bg-[#112240] rounded-sm py-3 px-1'
+      data-aos='fade-up'
+      data-aos-delay={delay}
     >
       <div className="flex justify-between items-center m-6">
         <CiFolderOn size={40} className="text-[#64ffda]" />
