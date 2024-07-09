@@ -33,7 +33,7 @@ function Navbar() {
           <img
             src={Logo}
             alt='Logo Image'
-            style={{ width: '60px' }}
+            style={{ width: '50px' }}
             className='cursor-pointer'
             data-aos='fade-in'
             data-aos-delay='0'
