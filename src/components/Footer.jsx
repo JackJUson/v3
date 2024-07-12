@@ -21,7 +21,7 @@ function Footer() {
             Designed by Brittany Chiang
           </a>
         </p>
-        <p className="mb-2">&copy; Copyright 2023 | All Rights Reserved</p>
+        <p className="mb-2">&copy; Copyright 2024 | All Rights Reserved</p>
       </div>
     </div>
   );
