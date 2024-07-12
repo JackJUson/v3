@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import Resume from '../assets/cv.pdf';
 import Logo from '../assets/logo.png';
 import { Link } from 'react-scroll';
 import NavLink from './NavLink';
@@ -55,7 +54,7 @@ function Navbar() {
               Resume
             </a> */}
 
-            <a class='relative inline-block'>
+            <a class='relative inline-block' href='/Resume.pdf' target='_blank'>
               <span
                 class='absolute top-0 left-0 rounded h-full px-3 py-1 mx-2 border border-[#64ffda]'
                 style={{ backgroundColor: '#64ffda' }}
@@ -98,7 +97,7 @@ function Navbar() {
         <NavLink link={'work'} name={'Work'} handleClick={handleClick} />
         <NavLink link={'contact'} name={'Contact'} handleClick={handleClick} />
         <li className='my-6 text-4xl hover:text-[#64ffda] duration-300'>
-          <a href={Resume} target='_blank'>
+          <a href='/Resume.pdf' target='_blank'>
             Resume
           </a>
         </li>
