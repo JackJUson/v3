@@ -3,7 +3,6 @@ import { BsPerson } from "react-icons/bs";
 import { RxDiscordLogo } from "react-icons/rx";
 import { FiGithub, FiLinkedin } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa";
-import Resume from "../assets/cv.pdf";
 
 function Social() {
   return (
@@ -57,7 +56,7 @@ function Social() {
               </a>
             </li>
             <li>
-              <a href={Resume} target="_blank">
+              <a href='/Resume.pdf' target="_blank">
                 <BsPerson
                   size={20}
                   className="hover:text-[#64ffda] duration-300 transform hover:-translate-y-1"
