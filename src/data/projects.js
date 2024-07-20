@@ -95,12 +95,4 @@ export const projects = [
     github: "https://github.com/JackJUson/search-engine",
     live: "https://search-engine-six-rust.vercel.app/",
   },
-  {
-    id: 13,
-    title: "Data Structures and Algorithm",
-    description: "Compilation of different data structures and algorithm code, primarily implemented in C",
-    techs: ["C"],
-    github: "https://github.com/JackJUson/dsa",
-    live: "",
-  },
 ];
