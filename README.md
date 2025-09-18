@@ -10,7 +10,7 @@
   <a href="https://github.com/JackJUson/v2" target="_blank">v2</a>,
 </p>
 
-![demo](./public/demo.PNG)
+![demo](https://github.com/JackJUson/v3/blob/main/public/demo.png)
 
 ## 🚨 Forking this repo (please read!)
 
