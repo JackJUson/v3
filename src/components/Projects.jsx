@@ -21,7 +21,7 @@ function Projects() {
           <p className='text-3xl font-bold text-[#ccd6f6] mb-4 mt-[7rem]'>
             Other Noteworthy Projects
           </p>
-          <a href='#' className='text-[#64ffda]'>
+          <a href='https://github.com/JackJUson' target='_blank' className='text-[#64ffda] text-underline'>
             View the archive
           </a>
         </div>
