@@ -38,6 +38,9 @@
       "last 1 safari version"
     ]
   },
+  "engines": {
+    "node": "22.x"
+  },
   "devDependencies": {
     "@smakss/react-scroll-direction": "^1.0.4",
     "tailwind-scrollbar": "^2.1.0",
