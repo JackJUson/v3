@@ -2,7 +2,7 @@
   jacksonwjung.com - v3
 </h1>
 <p align="center">
-  This is the third version of <a href="https://jacksonwjung.com" target="_blank">jacksonwjung.com</a> built with React and Tailwindcss and hosted with Github Pages
+  This is the third version of <a href="https://jacksonwjung.com" target="_blank">jacksonwjung.com</a> built with React and Tailwindcss and hosted on Vercel.
 </p>
 <p align="center">
   Previous iterations:
@@ -14,11 +14,7 @@
 
 ## 🚨 Forking this repo (please read!)
 
-This project was build by me however credit should go to [brittanychiang.com](https://brittanychiang.com) as the design came from her 😀. Please check her site for the original design. However if you prefer React as your frontend stack instead of Gatsby, don't hesitate to use my code **with attribution please!**.
-
-### TL;DR
-
-Yes, you can fork this repo. Please give me proper credit by linking back to [jacksonwjung.com](https://jacksonwjung.com). Thanks you!
+Yes, you can fork this repo 😀, please give me proper credit by linking back to [jacksonwjung.com](https://jacksonwjung.com). Thanks you!
 
 ## 🛠 Installation & Set Up
 
