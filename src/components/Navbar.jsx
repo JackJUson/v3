@@ -42,18 +42,10 @@ function Navbar() {
         <ul className='hidden md:flex items-center'>
           <NavLink screen={true} link={'home'} name={'Home'} delay={'0'} />
           <NavLink screen={true} link={'about'} name={'About'} delay={'100'} />
-          <NavLink screen={true} link={'work'} name={'Work'} delay={'200'} />
-          <NavLink screen={true} link={'contact'} name={'Contact'} delay={'300'} />
+          <NavLink screen={true} link={'skills'} name={'Experience'} delay={'200'} />
+          <NavLink screen={true} link={'work'} name={'Projects'} delay={'300'} />
+          <NavLink screen={true} link={'contact'} name={'Contact'} delay={'400'} />
           <li data-aos='fade-in' data-aos-delay='400'>
-            {/* <a
-              className='border-2 border-[#ccd6f6] text-[#ccd6f6] px-3 py-1 mx-2 flex items-center rounded
-          hover:bg-[#64ffda] hover:bg-opacity-40 hover:text-white hover:border-[#64ffda] duration-300'
-              href={Resume}
-              target='_blank'
-            >
-              Resume
-            </a> */}
-
             <a class='relative inline-block' href='/Resume.pdf' target='_blank'>
               <span
                 class='absolute top-0 left-0 rounded h-full px-3 py-1 mx-2 border border-[#64ffda]'
@@ -94,7 +86,8 @@ function Navbar() {
       >
         <NavLink link={'home'} name={'Home'} handleClick={handleClick} />
         <NavLink link={'about'} name={'About'} handleClick={handleClick} />
-        <NavLink link={'work'} name={'Work'} handleClick={handleClick} />
+        <NavLink link={'skills'} name={'Experience'} handleClick={handleClick} />
+        <NavLink link={'work'} name={'Projects'} handleClick={handleClick} />
         <NavLink link={'contact'} name={'Contact'} handleClick={handleClick} />
         <li className='my-6 text-4xl hover:text-[#64ffda] duration-300'>
           <a href='/Resume.pdf' target='_blank'>
