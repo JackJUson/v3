@@ -18,8 +18,8 @@ function Contact() {
           Get In Touch
         </h1>
         <p className='max-w-[600px] mx-8' data-aos='fade-up' data-aos-delay='500'>
-          I am currently looking for new opportunities so my inbox is always open. Whether you have
-          a question or just want to say hi, please send me a message and I'll get back to you!
+          I am always open to new opportunities so my inbox is always available. Whether you have a
+          question or just want to say hi, please send me a message and I'll get back to you!
         </p>
         <div data-aos='fade-up' data-aos-delay='500'>
           <a
